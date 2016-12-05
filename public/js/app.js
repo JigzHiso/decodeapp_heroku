@@ -1,4 +1,4 @@
-/*
+
 "use strict";
 
 
@@ -51,15 +51,14 @@ class Component extends App{
 	ukayLayout(){
 		let html = `
 			 <nav>
-			    <div class="nav-wrapper blue darken-4">
-			      <a href="#" class="brand-logo yellow-text ">UKAY v1.0</a>
-			      <ul id="nav-mobile" class="right hide-on-med-and-down">
-			        <li><a href="#">Items</a></li>
-			        <li><a href="#">Cart</a></li>
-			        <li><a href="#">New</a></li>
-			      </ul>
-			    </div>
-			  </nav>
+  				  <div class="nav-wrapper">
+				      <a href="#" class="brand-logo">Magic</a>
+ 				     <ul id="nav-mobile" class="right hide-on-med-and-down">
+     				   <li><a href="sass.html">Item</a></li>
+						<li><a href="collapsible.html">New</a></li>
+   		   </ul>
+    </div>
+  </nav>
 
 
 			  <div class="slider">
@@ -85,13 +84,22 @@ class Component extends App{
 
 					</ul>
 				  </div>
-				<footer class="page-footer blue darken-4">		          
-		          <div class="footer-copyright">
-		            <div class="container">
-		            © 2016 - Another decode App
-		            </div>
-		          </div>
-		        </footer>			  
+				<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Magic App</h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            </div>
+          </div>
+        </footer>	  
 		`;
 
 		this.reRender(`
@@ -102,12 +110,12 @@ class Component extends App{
 
 let component = new Component();
 component.ukayLayout();
-*/
 
 
 
 
-"use strict";
+
+/*"use strict";
 
 class App{
 	constructor(){
